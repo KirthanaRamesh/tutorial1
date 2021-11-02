@@ -1,0 +1,28 @@
+bookingDateTime=2021-11-03T10:30
+
+User Registration
+1) http://127.0.0.1:8000/user/register
+
+User Login
+2) http://127.0.0.1:8000/user/login
+
+Listing All Advisors
+3) http://127.0.0.1:8000/user/<int:userid>/advisor
+
+http://127.0.0.1:8000/user/5/advisor
+
+List All Booked Advisors by a User
+4) http://127.0.0.1:8000/user/<int:userid>/advisor/booking
+http://127.0.0.1:8000/user/1/advisor/booking
+
+
+5) Book a advisor
+http://127.0.0.1:8000/user/<int:userid>/advisor/<int:advisorid>
+bookingDateTime=2021-11-05T10:30
+
+6) Register a Advisor
+http://127.0.0.1:8000/admin1/advisor/
+adProfilePictureURL=http://127.0.0.1/advisor/profilepic&adName=karthy
+
+7) List all Adisor Bookings
+http://localhost:8000/user/advisor/booking
