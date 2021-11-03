@@ -28,7 +28,8 @@ SECRET_KEY = 'django-insecure-rdn6$g0s#$3t6hqfx7k(f+i*wjdklmzd@kkiqo8n%tp%-!%vxi
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+#ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://rrameshapi.herokuapp.com/','localhost','127.0.0.1']
 
 
 # Application definition
@@ -89,7 +90,7 @@ DATABASES = {
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
-ALLOWED_HOSTS = ['https://rrameshapi.herokuapp.com/','localhost','127.0.0.1']
+
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
