@@ -32,6 +32,17 @@ http://127.0.0.1:8000/admin1/advisor/
 adProfilePictureURL=http://127.0.0.1/advisor/profilepic&adName=karthy
 https://rrameshapinew.herokuapp.com/admin1/advisor/
 
+[
+    {
+        "adName": "Saraswathi",
+        "adProfilePictureURL": "http://127.0.0.1/advisor/profilepic/5"
+    },
+ {
+        "adName": "Lakshmi",
+        "adProfilePictureURL": "http://127.0.0.1/advisor/profilepic/6"
+    }
+]
+
 
 7) List all Adisor Bookings
 http://localhost:8000/user/advisor/booking

@@ -43,7 +43,7 @@ def user_list(request):
         return Response(serializer.data)
 
     elif request.method == 'POST':
-        serializer = UserSerializer(data=request.data)
+        serializer = UserSerializer(data=request.data,many=True)
         if serializer.is_valid():
             serializer.save()
             cusdata = {}
@@ -72,7 +72,7 @@ def advisor_list(request):
             return Response(serializer.data)
 
         elif request.method == 'POST':
-            serializer = AdvisorSerializer(data=request.data)
+            serializer = AdvisorSerializer(many=True,data=request.data)
             if serializer.is_valid():
                 serializer.save()
                 cusdata = {}
