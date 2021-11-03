@@ -39,7 +39,7 @@ def user_list(request):
     """
     if request.method == 'GET':
         users = User.objects.all()
-        serializer = UserSerializer(users, many=True)
+        serializer = UserSerializer(users)
         return Response(serializer.data)
 
     elif request.method == 'POST':
