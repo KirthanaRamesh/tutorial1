@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-rdn6$g0s#$3t6hqfx7k(f+i*wjdklmzd@kkiqo8n%tp%-!%vxi
 DEBUG = True
 
 #ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['https://rrameshapi.herokuapp.com/','localhost','127.0.0.1']
+ALLOWED_HOSTS = ['https://nurturelab-assignment.herokuapp.com/','localhost','127.0.0.1']
 
 
 # Application definition
