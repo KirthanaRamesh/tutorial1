@@ -10,7 +10,7 @@ email=philip@nowhere.anywhere&password=password_2021
 https://nurturelab-assignment.herokuapp.com/user/login
 
 
-Listing All Advisors
+Listing All Advisors   
 3) http://127.0.0.1:8000/user/<int:userid>/advisor
 http://127.0.0.1:8000/user/5/advisor
 https://nurturelab-assignment.herokuapp.com/user/1/advisor
